@@ -8,7 +8,7 @@ services:
     networks:
       - jenkins
     volumes:
-      - „/var/lib/jenkins:/var/jenkins_home
+      - /var/lib/jenkins:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
   postgres:
     image: postgres:9.6
